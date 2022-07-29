@@ -1,0 +1,11 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid a {
+  position: relative;
+  width: 5em;
+  height: 7.5em;
+  cursor: default;
+}
