@@ -20,7 +20,11 @@ export default function Home() {
         <input name="username" type="text" placeholder="Username" />
         <button type="submit">GO</button>
       </form>
-      <footer>Not affiliated with Letterboxd.</footer>
+      <footer>
+        Not affiliated with Letterboxd.
+        <br />
+        Made by <a href="https://justsharan.xyz">Sharan</a>.
+      </footer>
     </main>
   );
 }
