@@ -1,0 +1,59 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main header {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.main header * {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.main svg {
+  width: 2em;
+  height: auto;
+  vertical-align: -0.7em;
+}
+
+.main form {
+  margin: 2em 0;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.main form * {
+  border-radius: 5px;
+  padding: 0.7em 0.5em;
+  font-size: 0.75em;
+}
+
+.main form input {
+  appearance: none;
+  background: none;
+  border: 0.5px solid;
+}
+
+.main form button {
+  border: none;
+  background-color: rgb(239, 135, 51);
+  font-weight: bold;
+}
+
+.main footer {
+  font-size: 0.5em;
+}
+
+@media only screen and (max-width: 600px) {
+  .main header {
+    flex-direction: column;
+  }
+}
